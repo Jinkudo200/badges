@@ -632,8 +632,8 @@
       "isEnabled": true,
       "name": "DV",
       "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
-      "tagColor": "#FFFFFF",
-      "tagStyle": "filled",
+      "tagColor": "#00000000",
+      "tagStyle": "bordered",
       "textColor": "#000000",
       "type": "filter"
     },
@@ -822,7 +822,7 @@
     {
       "id": "ge-av1",
       "name": "AV1",
-      "groupId": "ge-2",
+      "groupId": "ge",
       "isEnabled": true,
       "pattern": "(?i)(?<![a-z0-9])(?:av1|av01)(?=$|[^a-z0-9])",
       "imageURL": "https://raw.githubusercontent.com/kingsizew/badges/main/badge-images/encoder/av1.png?rev=2cca635c8d96",
